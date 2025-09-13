@@ -1,0 +1,32 @@
+# --- Core Deep Learning & Numerics ---
+# For CUDA-enabled PyTorch, it's BEST to install it separately.
+# Follow instructions at: https://pytorch.org/get-started/locally/
+torch
+torchvision
+torchaudio
+numpy
+pandas
+scipy
+
+# --- LLM & Transformer Ecosystem (Hugging Face) ---
+transformers  # The core library for models like BERT, GPT, Llama
+datasets      # For easily loading and processing datasets
+accelerate    # Simplifies multi-GPU/TPU training and mixed precision
+peft          # For Parameter-Efficient Fine-Tuning (LoRA, QLoRA)
+bitsandbytes  # For model quantization (running large models with less VRAM)
+einops        # For flexible and powerful tensor operations
+sentencepiece # Tokenizer used by many models like T5 and Llama
+trl           # Transformer Reinforcement Learning (for DPO, PPO)
+
+# --- Classical Machine Learning ---
+scikit-learn  # Essential for metrics, data preprocessing, and traditional ML models
+
+# --- Data Visualization ---
+matplotlib
+seaborn
+
+# --- Utilities & Experiment Tracking ---
+jupyterlab    # For interactive development in a notebook environment
+tqdm          # For smart and informative progress bars
+python-dotenv # Manages environment variables (e.g., API keys) from a .env file
+wandb         # Weights & Biases for experiment logging and tracking
